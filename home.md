@@ -1,6 +1,6 @@
 #WELCOME
 
-Hi, my name is Andrea Morone and on this page you can find all my projects. This page is constantly updated, so  stay tuned!
+Hi, my name is Andrea and on this page you can find all my projects. This page is constantly updated, so  stay tuned!
 
 #SOCIAL PARSER
 Social Parser is a PHP class written to retrieve last posts of user from many social networks.
