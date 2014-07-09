@@ -9,7 +9,7 @@ To know more about this project you can view my official repository.
 	ver 1.0 
 	last update 09/07/2014
 
-[Go to Social Parser >](# "Got to Social Parser")
+[Go to Social Parser >](social-parser "Got to Social Parser")
 
 	
 #CONTACT
