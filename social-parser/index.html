@@ -55,6 +55,16 @@
 	    }
 	  });
 	});
+	
+	var HTML_FILE_URL = 'https://github.com/AndreaMorone/social-parser/blob/master/info.html';
+	$(document).ready(function() {
+	    $.get(HTML_FILE_URL, function(data) {
+	        var fileDom = $(data);
+	        fileDom.find('.version').each(function() {
+	            alert($(this).text());
+	        });
+	    });
+	});
 
   </script>
 </head>
@@ -102,7 +112,6 @@
 
   ga('create', 'UA-52674733-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 </body>
