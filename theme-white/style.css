@@ -899,3 +899,7 @@ code .comment {
   z-index: 1;
 }
 
+.headline a.author {
+	color: #ccc;
+}
+
