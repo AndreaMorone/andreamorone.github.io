@@ -6,3 +6,6 @@
 
 ##Introduction
 ##Getting Started
+##Implementation
+##Constructor
+##API Access
