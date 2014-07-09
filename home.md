@@ -10,3 +10,10 @@ To know more about this project you can view my official repository.
 
 	ver 1.0 
 	last update 09/07/2014
+	
+#CONTACT
+
+If you need to contact me use the following method
+
+*EMAIL* : [me@andreamorone.com](mailto:me@andreamorone.com "me@andreamorone.com")
+
