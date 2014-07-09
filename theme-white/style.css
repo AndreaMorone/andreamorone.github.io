@@ -504,6 +504,14 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
   color: #9090aa;
 }
 @media (min-width: 1180px) {
+  body:not(.no-literate) .content > pre, body:not(.no-literate) .content > blockquote {
+	  color: #dae4f2;
+	  text-shadow: 0 1px 0 rgba(0,0,0,0.7);
+	  -webkit-font-smoothing:antialiased;
+	  font-weight: inherit;
+	  font-size: 13px;
+	  line-height: 1.9em;
+  }
   body:not(.no-literate) .content-root {
     background-color: #292e33;
     -webkit-box-shadow: inset 780px 0 #fff, inset 781px 0 #dfe2e7, inset 790px 0 5px -10px rgba(0,0,0,0.1);
