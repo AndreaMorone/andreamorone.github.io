@@ -119,6 +119,9 @@ input {
   color: #505050;
 }
 @media (max-width: 480px) {
+body:not(.no-literate) .content-root {
+	background-color: #f3f6fb;
+}
   body,
   td,
   textarea,
@@ -345,6 +348,9 @@ body.big-h3 .content h3:before {
   width: 100%;
 }
 @media (max-width: 768px) {
+body:not(.no-literate) .content-root {
+	background-color: #f3f6fb;
+}
   .content h1,
   .content h2,
   .content .big-heading,
@@ -385,6 +391,9 @@ body:not(.big-h3) .content h3 {
   display: none;
 }
 @media (max-width: 768px) {
+body:not(.no-literate) .content-root {
+	background-color: #f3f6fb;
+}
   .content h4,
   .content h5,
   .content .small-heading,
@@ -393,6 +402,9 @@ body:not(.big-h3) .content h3 {
   }
 }
 @media (max-width: 480px) {
+body:not(.no-literate) .content-root {
+	background-color: #f3f6fb;
+}
   .content {
     padding: 20px;
     padding-top: 40px;
