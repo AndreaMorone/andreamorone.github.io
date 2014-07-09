@@ -358,7 +358,7 @@ body.big-h3 .content h3:before {
     background: #dfe2e7;
     left: -40px;
     top: -20px;
-    width: 120%;
+    width: 100%;
   }
 }
 .content h4,
@@ -517,6 +517,15 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
     -webkit-box-shadow: inset 780px 0 #fff, inset 781px 0 #dfe2e7, inset 790px 0 5px -10px rgba(0,0,0,0.1);
     box-shadow: inset 780px 0 #fff, inset 781px 0 #dfe2e7, inset 790px 0 5px -10px rgba(0,0,0,0.1);
   }
+  .content h1:before,
+  .content h2:before,
+  .content .big-heading:before,
+body.big-h3 .content h3:before {
+    background: #dfe2e7;
+    left: -40px;
+    top: -20px;
+    width: 120%;
+  }  
 }
 @media (min-width: 1180px) {
   body:not(.no-literate) .content {
