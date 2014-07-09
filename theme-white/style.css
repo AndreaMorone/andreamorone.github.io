@@ -902,4 +902,7 @@ code .comment {
 .headline a.author {
 	color: #ccc;
 }
+.headline a {
+	color: #fff;
+}
 
