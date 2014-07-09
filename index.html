@@ -41,6 +41,21 @@
 	    $(".header").sticky({topSpacing:0});	    
     });
 
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+
   </script>
 </head>
 <body role='flatdoc'>
@@ -50,7 +65,7 @@
       <div class='headline'>
         <h1>Andrea Morone Repositories</h1>
         <p>Creativity is just intelligence having fun.</h5>
-        <h5><span>WELCOME</span></h5>
+        <a href="#welcome"><h5><span>WELCOME</span></h5></a>
       </div>
     </div>
   </div>
