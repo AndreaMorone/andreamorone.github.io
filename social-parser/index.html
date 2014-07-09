@@ -54,18 +54,7 @@
 	      }
 	    }
 	  });
-	});
-	
-	var HTML_FILE_URL = 'https://raw.githubusercontent.com/AndreaMorone/social-parser/master/info.html';
-	$(document).ready(function() {
-	    $.get(HTML_FILE_URL, function(data) {
-	        var fileDom = $(data);
-	        fileDom.find('.version').each(function() {
-	            alert($(this).text());
-	        });
-	    });
-	});
-	
+	});	
   </script>
 </head>
 <body role='flatdoc'>
