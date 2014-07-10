@@ -7,10 +7,9 @@
 ##Introduction
 ##Getting Started
 
-	class {
-		public socialparser(){
-		}
-	}
+``` html
+<strong>Hola, mundo</strong>
+```	
 
 ##Implementation
 ##Constructor
