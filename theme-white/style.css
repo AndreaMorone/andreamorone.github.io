@@ -868,6 +868,7 @@ code .init {
 }
 code .keyword {
   font-weight: bold;
+  color: #f92672;
 }
 code .comment {
   color: #adadcc;
