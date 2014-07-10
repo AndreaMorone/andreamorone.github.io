@@ -11,6 +11,14 @@ To know more about this project you can view my official repository.
 
 [Go to Social Parser >](social-parser "Got to Social Parser")
 
+#SMOTHIFY
+Smothify is a jQuery plugin
+
+	ver 1.0 
+	last update 09/07/2014
+
+[Go to Smothify >](smothify "Got to Smothify")
+
 	
 #CONTACT
 
