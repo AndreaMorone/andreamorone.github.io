@@ -6,7 +6,7 @@
 
 ##Introduction
 ##Getting Started
-```php
+```
 class socialparser{
 	public function get_facebook($link){
 		$link = "$LINK";
