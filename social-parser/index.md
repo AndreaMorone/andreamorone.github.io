@@ -8,8 +8,8 @@
 ##Getting Started
 ```php
 class socialparser{
-	//NOT IMPLEMENTED 
-	public function get_facebook($link){
+	//NOT IMPLEMENTED
+public function get_facebook($link){
 		new $link = "$LINK";
 	}
 		}```
