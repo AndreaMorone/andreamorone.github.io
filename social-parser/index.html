@@ -24,20 +24,25 @@
   <meta content="Andrea Morone - Social Parser" property="og:title">
   <meta content="Andrea Morone Social Parser PHP Class" name="description">
 
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/default.min.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
+
+
   <!-- Initializer -->
   <script>
-      $(document).ready(function() {
-	  $('pre code').each(function(i, block) {
-	    hljs.highlightBlock(block);
-		  });
-		});
-
     Flatdoc.run({
       fetcher: Flatdoc.file('index.md')
     });
     $(document).ready(function(){
 	    $(".header").sticky({topSpacing:0});	    
     });
+
+	$(document).ready(function() {
+		$('pre code').each(function(i, block) {
+		hljs.highlightBlock(block);
+		  });
+		hljs.initHighlightingOnLoad();		  
+	});
 
 	$(function() {
 	  $('a[href*=#]:not([href=#])').click(function() {
