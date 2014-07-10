@@ -6,9 +6,9 @@
 
 ##Introduction
 ##Getting Started
-```html+php
+```php
 class socialparser{
-	/** NOT IMPLEMENTED**/
+	<!-- NOT IMPLEMENTED -->
 	public function get_facebook($link){
 		new $link = "$LINK";
 	}
