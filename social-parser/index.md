@@ -7,8 +7,12 @@
 ##Introduction
 ##Getting Started
 
-``` html
-<strong>Hola, mundo</strong>
+``` php class {
+	socialparser(){
+		$facebook;
+		$twitter;
+	}
+}
 ```	
 
 ##Implementation
