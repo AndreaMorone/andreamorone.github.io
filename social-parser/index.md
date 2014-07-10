@@ -7,12 +7,10 @@
 ##Introduction
 ##Getting Started
 
-	```php
 	class {
 		public socialparser(){
 		}
 	}
-	```
 
 ##Implementation
 ##Constructor
