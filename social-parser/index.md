@@ -6,6 +6,14 @@
 
 ##Introduction
 ##Getting Started
+
+	```php
+	class {
+		public socialparser(){
+		}
+	}
+	```
+
 ##Implementation
 ##Constructor
 ##API Access
