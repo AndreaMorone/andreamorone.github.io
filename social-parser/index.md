@@ -6,16 +6,11 @@
 
 ##Introduction
 ##Getting Started
-
-	``` php
-	class {
-	socialparser(){
-		$facebook;
-		$twitter;
-	}
-	}
-	```	
-
+```php
+$car = "";
+	if($car == 'lusso'){
+		$car="ferrari";
+	}```
 ##Implementation
 ##Constructor
 ##API Access
