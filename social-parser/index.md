@@ -8,7 +8,8 @@
 ##Getting Started
 ```php
 class socialparser{
-	public function get_facebook(){
+	public function get_facebook($link){
+		$link = "http://";
 	}
 		}```
 ##Implementation
