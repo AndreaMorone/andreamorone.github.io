@@ -7,14 +7,14 @@
 ##Introduction
 ##Getting Started
 
-``` php
-class {
+	``` php
+	class {
 	socialparser(){
 		$facebook;
 		$twitter;
 	}
-}
-```	
+	}
+	```	
 
 ##Implementation
 ##Constructor
