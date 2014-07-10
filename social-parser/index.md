@@ -7,10 +7,10 @@
 ##Introduction
 ##Getting Started
 ```php
-$car = "";
-	if($car == 'lusso'){
-		$car="ferrari";
-	}```
+class socialparser{
+	public function get_facebook(){
+	}
+		}```
 ##Implementation
 ##Constructor
 ##API Access
