@@ -9,7 +9,7 @@
 ```php
 class socialparser{
 	public function get_facebook($link){
-		$link = "http://";
+		$link = "$LINK";
 	}
 		}```
 ##Implementation
