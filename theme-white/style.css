@@ -344,6 +344,9 @@ body.big-h3 .content h3:before {
   left: -40px;
   width: 100%;
 }
+#disqus-thread {
+	padding:10px 15px;
+}
 @media (max-width: 768px) {
   .content h1,
   .content h2,
@@ -434,6 +437,12 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
   box-shadow: inset 2px 2px 3px rgba(0,0,0,0.2);
 }
 @media (max-width: 1180px) {
+
+	#disqus-thread {
+		width:43%;
+		padding:10px 15px;
+	}
+
   .content pre > code {
     background: #f3f6fb;
     border: solid 1px #e7eaee;
