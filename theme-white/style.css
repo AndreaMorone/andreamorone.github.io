@@ -438,11 +438,6 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
 }
 @media (max-width: 1180px) {
 
-	#disqus_thread {
-		width:43%;
-		padding:10px 15px;
-	}
-
   .content pre > code {
     background: #f3f6fb;
     border: solid 1px #e7eaee;
@@ -513,6 +508,11 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
   color: #9090aa;
 }
 @media (min-width: 1180px) {
+	#disqus_thread {
+		width:43%;
+		padding:10px 15px;
+	}
+
   body:not(.no-literate) .content > pre, body:not(.no-literate) .content > blockquote {
 	  color: #dae4f2;
 	  text-shadow: 0 1px 0 rgba(0,0,0,0.7);
