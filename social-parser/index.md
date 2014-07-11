@@ -6,7 +6,7 @@
 
 ##Introduction
 ##Getting Started
-```php
+```js
 class socialparser{
 	//NOT IMPLEMENTED
 	public function get_facebook($link){
