@@ -861,7 +861,8 @@ a.big.button:hover:visited {
 }
 code .string,
 code .number {
-  color: #3ac;
+  /*color: #3ac;*/
+  color: #e5da78;  
 }
 code .init {
   /*color: #383;*/
@@ -869,8 +870,7 @@ code .init {
 }
 code .keyword {
   font-weight: bold;
-  /*color: #f92672;*/
-  color: #e5da78;
+  color: #f92672;
 }
 code .comment {
   color: #adadcc;
