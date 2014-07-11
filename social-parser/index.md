@@ -6,13 +6,10 @@
 
 ##Introduction
 ##Getting Started
+First of all you need to download  the class itself and then include it in you project.
 ```php
-class socialparser{
-	//NOT IMPLEMENTED
-		public function get_facebook($link){
-		new $link = "LINK";
-	}
-}```
+include_once('path/to/class/socialparser.php');
+```
 ##Implementation
 ##Constructor
 ##API Access
