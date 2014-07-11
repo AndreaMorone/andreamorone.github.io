@@ -10,7 +10,7 @@
 class socialparser{
 	//NOT IMPLEMENTED
 public function get_facebook($link){
-		new $link = "$LINK";
+		new $link = "LINK";
 	}
 		}```
 ##Implementation
