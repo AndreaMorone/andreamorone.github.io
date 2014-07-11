@@ -9,10 +9,10 @@
 ```php
 class socialparser{
 	//NOT IMPLEMENTED
-public function get_facebook($link){
+	public function get_facebook($link){
 		new $link = "LINK";
 	}
-		}```
+}```
 ##Implementation
 ##Constructor
 ##API Access
