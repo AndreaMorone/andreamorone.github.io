@@ -866,7 +866,7 @@ code .number {
 }
 code .init {
   /*color: #383;*/
-  color: #f92672;  
+  color: #3ac;
 }
 code .keyword {
   font-weight: bold;
