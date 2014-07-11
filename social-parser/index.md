@@ -1,7 +1,7 @@
 #Social Parser
 
-	version 1.0
 	author Andrea Morone
+	version 1.0
 	last update 9/7/2014
 
 ##Introduction
@@ -9,7 +9,7 @@
 ```php
 class socialparser{
 	//NOT IMPLEMENTED
-	public function get_facebook($link){
+		public function get_facebook($link){
 		new $link = "LINK";
 	}
 }```
