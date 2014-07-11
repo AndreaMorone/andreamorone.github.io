@@ -159,7 +159,7 @@ function($) {
 		return code.replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/("[^\"]*?")/g, '<span class="string">$1</span>').replace(/('[^\']*?')/g, '<span class="string">$1</span>').replace(/&lt;!--(.*)--&gt;/g, '<span class="comment">&lt;!--$1--&gt;</span>').replace(/&lt;([^!][^\s&]*)/g, '&lt;<span class="keyword">$1</span>')
 	};
 	Highlighters.php = function(code) {
-		return code.replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/("[^\"]*?")/g, '<span class="string">$1</span>').replace(/('[^\']*?')/g, '<span class="string">$1</span>').replace(/\/\/(.*)/g, '<span class="comment">//$1</span>').replace(/&lt;([^!][^\s&]*)/g, '&lt;<span class="keyword">$1</span>').replace(/\b(public|function|new|class)\b/gm, '<span class="init">$1</span>').replace(/(\$\w+)/g, '<span class="keyword">$1</span>')
+		return code.replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/("[^\"]*?")/g, '<span class="string">$1</span>').replace(/('[^\']*?')/g, '<span class="string">$1</span>').replace(/\/\/(.*)/g, '<span class="comment">//$1</span>').replace(/&lt;([^!][^\s&]*)/g, '&lt;<span class="keyword">$1</span>').replace(/\b(public|function|new|class&nbsp;)\b/gm, '<span class="init">$1</span>').replace(/(\$\w+)/g, '<span class="keyword">$1</span>')
 	};	
 	Highlighters.generic = function(code) {
 		return code.replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/("[^\"]*?")/g, '<span class="string">$1</span>').replace(/('[^\']*?')/g, '<span class="string">$1</span>').replace(/(\/\/|#)(.*)/gm, '<span class="comment">$1$2</span>').replace(/(\d+\.\d+)/gm, '<span class="number">$1</span>').replace(/(\d+)/gm, '<span class="number">$1</span>')
