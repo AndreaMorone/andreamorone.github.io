@@ -864,11 +864,13 @@ code .number {
   color: #3ac;
 }
 code .init {
-  color: #383;
+  /*color: #383;*/
+  color: #f92672;  
 }
 code .keyword {
   font-weight: bold;
-  color: #f92672;
+  /*color: #f92672;*/
+  color: #e5da78;
 }
 code .comment {
   color: #adadcc;
