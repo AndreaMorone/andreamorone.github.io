@@ -7,7 +7,7 @@ Social Parser is a PHP class written to retrieve latest posts of user from many 
 To know more about this project you can view my official repository.
 
 	ver 1.0 
-	last update 09/07/2014
+	last update 12/07/2014
 
 [Go to Social Parser >](social-parser "Got to Social Parser")
 
@@ -15,7 +15,6 @@ To know more about this project you can view my official repository.
 Smothify is a jQuery plugin
 
 	ver 1.0 
-	last update 09/07/2014
 
 [Go to Smothify >](smothify "Got to Smothify")
 
