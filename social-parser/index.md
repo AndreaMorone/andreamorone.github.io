@@ -77,7 +77,7 @@ Attribute
 ```php
 	twitter($id,$num);
 ```
-######Note
+#####Note
 Remember to set the API KEY
 
 #####Google Method
@@ -95,7 +95,7 @@ Attribute
 ```php
 	google($id,$num);
 ```
-######Note
+#####Note
 Remember to set the API KEY
 
 ##Live Demo
