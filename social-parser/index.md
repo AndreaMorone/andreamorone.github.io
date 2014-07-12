@@ -7,7 +7,7 @@ To read the entire development explained step by step go [here](http://c0desn1p.
 
 	author Andrea Morone
 	version 1.0
-	last update 9/7/2014
+	last update 12/7/2014
 
 #####NotesTwitter and Google+ need API integration to work. So if you don't know how to create and obtain your API KEY from twitter or google, please refer to this [guide](http://c0desn1p.com/retrieve-latest-posts-from-social-networks-with-php/).
 
