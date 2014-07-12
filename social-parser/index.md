@@ -98,6 +98,99 @@ Attribute
 #####Note
 Remember to set the API KEY
 
+##Example
+
+Example of the implementation could be the following. You can see it live above.
+
+```
+<?php  
+include_once('socialparser.php');
+$socialparser = new Socialparser();
+$facebook_posts = $socialparser->facebook('146610298732369',5);
+$youtube_videos = $socialparser->youtube('SapienzaRoma',5);
+$tweets =  $socialparser->twitter('SapienzaRoma',5);
+$google_posts = $socialparser->google('+Ferrari',5);
+?>
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>PHP - Social Parser</title>
+</head>
+	<style>
+		body {
+		padding: 0px 10% 0px 10%;
+		}
+		body div {
+			width: 20%;
+			padding: 10px;
+			float: left;
+		}
+		body div img {
+			max-width: 100%;
+		}
+		ul {
+			list-style: none;
+			padding: 0px;
+		}
+		iframe {
+			width: 100%    !important;
+			height: auto   !important;
+		}
+	</style>
+<body>
+	<div>
+		<h2>Facebook</h2>
+		<ul>
+			<? foreach($facebook_posts as $fb){ ?>
+				<li>
+					<p><? echo $fb['title'] ?></p>
+					<p><? echo $fb['content'] ?></p>
+				</li>
+				<hr>
+			<? } ?>
+		</ul>
+	</div>
+	<div>
+		<h2>Youtube</h2>	
+		<ul>
+			<? foreach($youtube_videos as $yt){ ?>
+				<li>
+					<p><? echo $yt['title'] ?></p>
+					<iframe id="ytplayer" type="text/html" src="http://www.youtube.com/embed/<? echo $yt['id']; ?>?autoplay=0" frameborder="0"/></iframe>
+				</li>
+				<hr>
+			<? } ?>
+		</ul>
+	</div>
+	<div>
+		<h2>Twitter</h2>	
+		<ul>
+			<? foreach($tweets as $tw){ ?>
+				<li>
+					<p><? echo $tw['text'] ?></p>
+					<img src="<? echo $tw['image'] ?>"/>
+				</li>
+				<hr>
+			<? } ?>
+		</ul>
+	</div>
+	<div>
+		<h2>Google</h2>	
+		<ul>
+			<? foreach($google_posts as $goog){ ?>
+				<li>
+					<p><? echo $goog['title'] ?></p>
+					<img src="<? echo $goog['image'] ?>"/>
+				</li>
+				<hr>
+			<? } ?>
+		</ul>
+	</div>
+</body>
+</html>
+```
+
 ##Live Demo
 If you want to see a live implementation of this class, you can see [here](http://projects.andreamorone.com/socialparser/).
 
