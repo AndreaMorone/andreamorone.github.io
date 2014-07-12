@@ -25,5 +25,5 @@ include_once('path/to/class/socialparser.php');
 ```
 	
 ##Methods
-###
+
 ##Comments
