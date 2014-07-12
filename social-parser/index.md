@@ -102,7 +102,7 @@ Remember to set the API KEY
 
 Example of the implementation could be the following. You can see it live above.
 
-```php
+```html
 <?php  
 include_once('socialparser.php');
 $socialparser = new Socialparser();
