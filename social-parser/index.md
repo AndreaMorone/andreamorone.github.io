@@ -19,13 +19,34 @@ include_once('path/to/class/socialparser.php');
 Then you need to set your API KEY for Twitter and Google in socialstream.php. If you don't know how to create and obtain your API KEY from twitter or google, please refer to this [guide](http://c0desn1p.com/retrieve-latest-posts-from-social-networks-with-php/).
 
 ##Implementation
-Use this class is very easy, just call the method you need and pass it the username of the user from who you want to parse updates and the number of updates. That's it.	
+Use this class is very easy, just call the method you need and pass it the username of the user from who you want to parse updates and the number of updates. Then you have to iterate trough the array to retrieve single post.  
+That's it.	
 ```php
 	$socialparser = new Socialparser();  
 	$facebook_posts = $socialparser->facebook('FACEBOOK PAGE ID',NUMBER OF POSTS);  
 	$youtube_videos = $socialparser->youtube('YOUTUBE USERNAME',NUMBER OF POSTS);  
 	$tweets =  $socialparser->twitter('TWITTER USERNAME',NUMBER OF POSTS);  
 	$google_posts = $socialparser->google('GOOGLE PLUS ID',NUMBER OF POSTS);
+```
+
+##Methods
+#####Facebook Method
+Return type **array()**
+
+- title- link- author
+- publishedDate
+- contentSnippet
+- content
+- categories -> *array*
+
+Attribute 
+
+- $id = Facebook ID page
+- $num = the number of posts to retrieve
+
+
+```php
+	facebook();
 ```
 
 ##Live Demo
