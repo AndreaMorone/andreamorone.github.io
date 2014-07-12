@@ -47,8 +47,56 @@ Attribute
 
 
 ```php
-	facebook();
+	facebook($id,$num);
 ```
+#####Youtube Method
+Return type **array()**
+
+- title- id = videoID
+
+Attribute 
+
+- $id = Youtube Username
+- $num = the number of posts to retrieve
+
+
+```php
+	youtube($id,$num);
+```
+#####Twitter Method
+Return type **array()**
+
+- text- image
+
+Attribute 
+
+- $id = Twitter Username
+- $num = the number of posts to retrieve
+
+
+```php
+	twitter($id,$num);
+```
+######Note
+Remember to set the API KEY
+
+#####Google Method
+Return type **array()**
+
+- title- url = url of post
+- image
+
+Attribute 
+
+- $id = Google Plus Username or ID
+- $num = the number of posts to retrieve
+
+
+```php
+	google($id,$num);
+```
+######Note
+Remember to set the API KEY
 
 ##Live Demo
 If you want to see a live implementation of this class, you can see [here](http://projects.andreamorone.com/socialparser/).
