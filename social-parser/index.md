@@ -192,6 +192,6 @@ $google_posts = $socialparser->google('+Ferrari',5);
 ```
 
 ##Live Demo
-If you want to see a live implementation of this class, you can see [here](http://projects.andreamorone.com/socialparser/).
+If you want to see a live implementation of this class, you can see [here](http://projects.andreamorone.com/?project=phpsocialparser).
 
 ##Comments
